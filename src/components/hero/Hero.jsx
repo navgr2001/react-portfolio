@@ -60,8 +60,8 @@ const Hero = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src="/react-portfolio/scroll.png"
-            alt=""
+            src={`${import.meta.env.BASE_URL}scroll.png`}
+            alt="scroll"
           />
         </motion.div>
       </div>
@@ -74,7 +74,7 @@ const Hero = () => {
         Developer
       </motion.div>
       <div className="imageContainer">
-        <img src="/react-portfolio/heroself.png" alt="" />
+        <img src={`${import.meta.env.BASE_URL}heroself.png`} alt="hero" />
       </div>
     </div>
   );
