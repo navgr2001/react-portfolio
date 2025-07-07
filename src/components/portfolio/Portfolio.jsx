@@ -17,7 +17,8 @@ const items = [
     title: "Portfolio",
     img: `${import.meta.env.BASE_URL}portfolio.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: [{ label: "Github Repo", link: "https://github.com/navgr2001/portfolio" },
+    buttons: [
+      { label: "Github Repo", link: "https://github.com/navgr2001/portfolio" },
       { label: "See Demo", link: "https://navgr2001.github.io/portfolio/" }]
   },
   {
@@ -84,10 +85,13 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <div className="buttonGroup">
-              {item.buttons?.map((label, i) => (
-                <button key={i}>{label}</button>
+              {item.buttons?.map((btn, i) => (
+                <a href={btn.link} target="_blank" rel="noopener noreferrer" key={i}>
+                   <button>{btn.label}</button>
+                </a>
               ))}
             </div>
+
           </motion.div>
         </div>
       </div>
