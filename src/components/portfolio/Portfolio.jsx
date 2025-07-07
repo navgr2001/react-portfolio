@@ -8,56 +8,59 @@ const items = [
     title: "React Portfolio",
     img:`${import.meta.env.BASE_URL}reactportfolio.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: [ 
+      { label: "Github Repo", link: "https://github.com/navgr2001/react-portfolio" },
+      { label: "See Demo", link: "https://navgr2001.github.io/react-portfolio/" }]
   },
   {
     id: 2,
     title: "Portfolio",
     img: `${import.meta.env.BASE_URL}portfolio.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: [{ label: "Github Repo", link: "https://github.com/navgr2001/portfolio" },
+      { label: "See Demo", link: "https://navgr2001.github.io/portfolio/" }]
   },
   {
     id: 3,
     title: "SignPal Mobile App",
     img: `${import.meta.env.BASE_URL}signpalmobile.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: ["Github Repo"]
   },
   {
     id: 4,
     title: "Doctor Consultation Software",
     img: `${import.meta.env.BASE_URL}skinconsultation.png`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: ["Github Repo"]
   },
   {
     id: 5,
     title: "Simple Hangman Game",
     img: `${import.meta.env.BASE_URL}hangman.jpg`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: ["Github Repo"]
   },
   {
     id: 6,
     title: "Cruiseship Boarding",
     img: `${import.meta.env.BASE_URL}cruiseship.png`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: ["Github Repo"]
   },
   {
     id: 7,
     title: "Simple Calculator",
     img: `${import.meta.env.BASE_URL}calculator.jpg`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: ["Github Repo"]
   },
   {
     id: 8,
     title: "NIC detector",
     img: `${import.meta.env.BASE_URL}smartcard.jpg`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    buttons: ["See Demo"]
+    buttons: ["Github Repo"]
   },
 ];
 
