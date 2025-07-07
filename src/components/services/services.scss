@@ -6,6 +6,43 @@
   flex-direction: column;
   justify-content: space-between;
 
+  .skillsContainer {
+    display: flex;
+    gap: 40px;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+
+    @include mobile {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 250px;
+
+      .skill {
+        margin-bottom: 20px;
+
+        .label {
+          display: flex;
+          justify-content: space-between;
+          font-weight: bold;
+          color: white;
+          margin-bottom: 5px;
+        }
+
+        .bar {
+          height: 4px;
+          background-color: crimson;
+          border-radius: 4px;
+          transition: width 1s ease;
+        }
+      }
+    }
+  }
+
+
   .textContainer {
     flex: 1;
     align-self: flex-end;

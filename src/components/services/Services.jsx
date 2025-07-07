@@ -36,23 +36,23 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
+          I focus on designing and developing
           <br /> and move forward
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src={`${import.meta.env.BASE_URL}people.webp`} alt="people" />
           <h1>
             <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Needs.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>TECH STACK</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -108,6 +108,41 @@ const Services = () => {
           </p>
           <button>Go</button>
         </motion.div>
+      </motion.div>
+      {/* Progress Bars */}
+      <motion.div className="skillsContainer" variants={variants}>
+        <div className="column">
+          {skillsLeft.map(({ skill, level }, index) => (
+            <motion.div className="skill" key={skill}>
+              <div className="label">
+                <span>{skill}</span>
+                <span>{level}%</span>
+              </div>
+              <motion.div
+                className="bar"
+                initial={{ width: 0 }}
+                animate={isInView ? { width: `${level}%` } : {}}
+                transition={{ duration: 1, delay: index * 0.1 }}
+              />
+            </motion.div>
+          ))}
+        </div>
+        <div className="column">
+          {skillsRight.map(({ skill, level }, index) => (
+            <motion.div className="skill" key={skill}>
+              <div className="label">
+                <span>{skill}</span>
+                <span>{level}%</span>
+              </div>
+              <motion.div
+                className="bar"
+                initial={{ width: 0 }}
+                animate={isInView ? { width: `${level}%` } : {}}
+                transition={{ duration: 1, delay: index * 0.1 }}
+              />
+            </motion.div>
+          ))}
+        </div>
       </motion.div>
     </motion.div>
   );
