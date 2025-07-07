@@ -22,17 +22,17 @@ const variants = {
 const skillsLeft = [
   { skill: "Java", level: 80 },
   { skill: "Python", level: 70 },
-  { skill: "HTML", level: 70 },
-  { skill: "CSS", level: 60 },
-  { skill: "JavaScript", level: 50 },
+  { skill: "HTML", level: 80 },
+  { skill: "CSS", level: 70 },
+  { skill: "JavaScript", level: 60 },
 ];
 
 const skillsRight = [
-  { skill: "PHP", level: 50 },
-  { skill: "MySQL", level: 50 },
-  { skill: "R", level: 30 },
+  { skill: "PHP", level: 60 },
+  { skill: "MySQL", level: 70 },
+  { skill: "React", level: 80 },
   { skill: "Wordpress", level: 80 },
-  { skill: "C++", level: 60 },
+  { skill: ".NET", level: 50 },
 ];
 
 const Services = () => {
