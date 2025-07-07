@@ -167,7 +167,7 @@ const items = [
     img: `${import.meta.env.BASE_URL}skinconsultation.png`,
     desc: "Doctor-patient desktop consultation manager.",
     buttons: [
-      { label: "Github Repo", link: "https://github.com/navgr2001/consultation-system" },
+      { label: "Github Repo", link: "https://github.com/navgr2001/skinconsultation" },
     ],
   },
   {
@@ -176,7 +176,7 @@ const items = [
     img: `${import.meta.env.BASE_URL}hangman.jpg`,
     desc: "Fun Java-based hangman word game.",
     buttons: [
-      { label: "Github Repo", link: "https://github.com/navgr2001/hangman-game" },
+      { label: "Github Repo", link: "https://github.com/navgr2001/hangman" },
     ],
   },
   {
@@ -185,7 +185,7 @@ const items = [
     img: `${import.meta.env.BASE_URL}cruiseship.png`,
     desc: "Boarding management simulation for cruise ships.",
     buttons: [
-      { label: "Github Repo", link: "https://github.com/navgr2001/cruiseship-boarder" },
+      { label: "Github Repo", link: "https://github.com/navgr2001/cruiseship-boarding" },
     ],
   },
   {
@@ -194,7 +194,7 @@ const items = [
     img: `${import.meta.env.BASE_URL}calculator.jpg`,
     desc: "Basic desktop calculator app with UI.",
     buttons: [
-      { label: "Github Repo", link: "https://github.com/navgr2001/simple-calculator" },
+      { label: "Github Repo", link: "https://github.com/navgr2001/calculator" },
     ],
   },
   {
@@ -203,7 +203,7 @@ const items = [
     img: `${import.meta.env.BASE_URL}smartcard.jpg`,
     desc: "Sri Lankan NIC number breakdown tool.",
     buttons: [
-      { label: "Github Repo", link: "https://github.com/navgr2001/nic-detector" },
+      { label: "Github Repo", link: "https://github.com/navgr2001/NIC" },
     ],
   },
 ];
