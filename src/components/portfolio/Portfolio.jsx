@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "React Portfolio",
-    img:`${import.meta.env.BASE_URL}reactprtfolio.PNG`,
+    img:`${import.meta.env.BASE_URL}reactportfolio.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
