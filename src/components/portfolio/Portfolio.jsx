@@ -6,13 +6,13 @@ const items = [
   {
     id: 1,
     title: "React Portfolio",
-    img:`${import.meta.env.BASE_URL}naveengrero.png`,
+    img:`${import.meta.env.BASE_URL}reactprtfolio.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
     id: 2,
     title: "Portfolio",
-    img: `${import.meta.env.BASE_URL}naveengrero.png`,
+    img: `${import.meta.env.BASE_URL}portfolio.PNG`,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
