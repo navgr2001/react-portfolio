@@ -71,7 +71,7 @@ const Services = () => {
           <button>TECH STACK</button>
         </div>
       </motion.div>
-      <motion.div className="listContainer" variants={variants}>
+      {/* <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -124,7 +124,7 @@ const Services = () => {
           </p>
           <button>Go</button>
         </motion.div>
-      </motion.div>
+      </motion.div> */}
       {/* Progress Bars */}
       <motion.div className="skillsContainer" variants={variants}>
         <div className="column">
