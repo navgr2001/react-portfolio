@@ -55,7 +55,14 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Download CV</motion.button>
+            <motion.a
+              variants={textVariants}
+              href="https://drive.google.com/file/d/1J9tXkpkMskVfgM6wh4PdKo-S76JhCpEh/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer">
+              Download CV
+            </motion.a>
+
           </motion.div>
           <motion.img
             variants={textVariants}
