@@ -58,7 +58,7 @@ const Hero = () => {
             
             {/* Download CV Button - opens in new tab */}
             <motion.a
-              href="https://drive.google.com/file/d/1J9tXkpkMskVfgM6wh4PdKo-S76JhCpEh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jBq6scv-NxaxO-XQrafCxduNOFpgajbv/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               variants={textVariants}
