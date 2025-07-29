@@ -29,7 +29,7 @@ const items = [
     img: `${import.meta.env.BASE_URL}signpalmobile.PNG`,
     desc: "Cross-platform sign language translator.",
     buttons: [
-      { label: "Github Repo", link: "https://github.com/navgr2001/SignPal" },
+      { label: "Github Repo", link: "https://github.com/navgr2001/SignPal_MobileApp_FinalProject" },
     ],
   },
   {
